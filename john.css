@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900&display=swap');
+
+#title {
+    color: black;
+    text-align: center;
+    font-size: 120px;
+    font-family: 'Montserrat';
+    text-shadow: 5px 6px 0px silver;
+    
+    }
+
+#img-header {
+
+        height: 325px;
+        width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+    }
+
+body {
+       background-color: #2f2f31;
+}
+
+.text {
+    color: white;
+}
+
+header {
+    height: 150px;
+    width: 100%;
+    position: relative;
+    background-color: white;
+    bottom: 60px;
+    
+}
+
+
+.textbox {
+display: flex;
+flex-direction: column;
+width: 78%;
+margin-top: 60px;
+
+
+}
+
+.section {
+    background-color:rgba(255,255,255, 0.6);
+    height: 220px;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+
+}
+
+ul {
+    position: relative;
+    bottom: 10px;
+    column-count: 2;
+    font-size: 25px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    list-style-type: none;
+    line-height: 32px;
+}
+
+
+.albumbox {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    position: relative;
+    bottom: 720px;
+    margin-left: auto;
+    right: 30px;
+    
+}
+
+.albumpic {
+    display: block;
+    height: 220px;
+    width: 220px;
+    margin-left: auto;
+    margin: 10px 0px 10px 0px;
+
+}
+
+#img-div {
+
+    height: 200px;
+    width: 546px;
+    border-radius: 20px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 650px;
+}
+
+#image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#img-caption {
+
+    color: #2f2f31;
+}
